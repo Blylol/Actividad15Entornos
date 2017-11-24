@@ -8,8 +8,10 @@ public class Calculadora {
 		num1 = a;
 		num2 = b;		
 	}
-	
-	public int suma() {
+	/*
+	 *Cambios realizados en suma volviendole un metodo estatico
+	 * */
+	public static int suma(int num1, num2) {
 		int resul = num1 + num2;
 		return resul;
 	}
